@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild":
-      "cd client && yarn --production=false && yarn run build && npm prune --production"
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   }
 }
